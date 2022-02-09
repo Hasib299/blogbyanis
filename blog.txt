@@ -1,0 +1,9 @@
+Part-1:
+________
+Starting templet:
+	1.Basic structure of HTML
+	2.link CSS
+	3.Add reset code in CSS
+	4.Add Google font
+	5.Add font awesome CDN
+	6.Get the osset image

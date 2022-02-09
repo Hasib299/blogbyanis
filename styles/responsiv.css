@@ -1,0 +1,119 @@
+
+/* responsive start here  */
+@media (max-width: 992px) {
+  .logo {
+    font-size: 4rem;
+    border: 1px solid #fff;
+  }
+  #blog-bannar-section {
+    flex-direction: column;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .bannar-heading {
+    display: block;
+    background-color: #fff;
+    color: black;
+    font-weight: bolder;
+  }
+  .bannar-description {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .banner-img {
+    max-width: 30rem;
+    height: 30rem;
+    border: 0.3rem solid black;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+  .blog-post{
+      flex-direction: column;
+  }
+  .blog-post-conatant{
+      width: 100%;
+  }
+  .blog-btn{
+      width: 100%;
+      align-items: center;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .copyrigth-text{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-figure {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bar {
+    visibility: visible;
+    color: white;
+    cursor: pointer;
+  }
+
+#NavUL{
+    display: flex;
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.showLI{
+    visibility: visible;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+  }
+  .card-container {
+    display: block;
+    flex-direction: column;
+    width: 90%;
+  }
+  .archive-container-lists{
+    display: flex;
+    flex-direction: column;
+}
+.blog-post-heading-title{
+  margin-bottom: 2rem;
+}
+.form-control{
+  flex-wrap: wrap;
+}
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 48.5%;
+  }
+  header {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+
+  header nav li a{
+      color: black;
+      text-align: center;
+  }
+}
+/* responsive end here  */
